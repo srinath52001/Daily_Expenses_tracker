@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<style>
+	.a{
+		border:2px solid; 
+		width:35%;
+		padding:10px;
+		margin:30px;
+	}
+	.b{
+		padding:5px;
+	}
+	
+
+</style>
+</head>
+
+
+<body>
+
+<div>
+	<h3>Daily Expense Tracker Managemet</h3>
+</div>
+<div  style="background-color:skyblue;height:30px;">
+		<a href="index.html">Home</a>  &nbsp;&nbsp;
+	  	<a href="Dashboard.jsp">Dash Board</a> &nbsp;&nbsp;
+	    <a href="AddExpenses.html">Add Expenses</a> &nbsp;&nbsp;
+	  	<a href="ViewExpenses.jsp">View Expenses</a>&nbsp;&nbsp;
+	  	<a href="Manage-expenses.html">Manage Expenses</a> 
+	  	<span style="padding-left:60%;">Hello</span>&nbsp;&nbsp;
+	  	<a href="SignIn.html">Log out</a> 
+</div>
+
+
+<center>
+
+<div  class ="a">
+
+<form action="Manage_expenses.jsp">
+	<div class="b"><h2 style="color:green;">DateWise Expenses Report</h2></div><hr>
+	<div class="b">
+		From date&nbsp;&nbsp;<input type = "date" name="date1" style="width: 196px; height: 28px; "><br><br>
+		to date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="date" name="date2" style="width: 196px; height: 28px; ">
+	</div>
+	<div class="b">
+		<input style="background-color:lightgrey;" type="submit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input style="background-color:lightgrey;" type="reset">
+	</div>
+</form>
+
+</div>
+</center>
+
+</body>
+</html>
